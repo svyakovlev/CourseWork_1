@@ -12,24 +12,31 @@ public class Main {
 //        Employee employee8 = new Employee("Петров Иван Петрович", 3, 25000);
         Employee employee8 = null;
         Employee employee9 = new Employee("Сидоров Иван Петрович", 4, 30000);
-//        Employee employee10 = new Employee("Кузнецов Иван Иванович", 5, 55000);
+        Employee employee10 = new Employee("Кузнецов Иван Иванович", 5, 55000);
 
         employee1.addEmployee();
 //        employee2.addEmployee();
-        employee3.addEmployee();
+//        employee3.addEmployee();
         employee4.addEmployee();
-//        employee5.addEmployee();
+        employee5.addEmployee();
         employee6.addEmployee();
-        employee7.addEmployee();
+//        employee7.addEmployee();
 //        employee8.addEmployee();
-//        employee9.addEmployee();
+        employee9.addEmployee();
 //        employee10.addEmployee();
 
-        Service.printEmployees(employees);
-        Service.printSummarySalary(employees);
-        Service.printAverageSalary(employees);
-        Service.printFullname(employees);
-        Service.printMinimalSalary(employees);
-        Service.printMaximalSalary(employees);
+//        Service.salaryIndexingForAll(employees,10);
+//        Service.salaryIndexingForDept(employees,1,10);
+//        Service.printDeptEmployees(employees, 4);
+//        Service.printSummarySalary(employees);
+//        Service.printAverageSalary(employees);
+//        Service.printFullname(employees);
+//        Service.printMinimalSalary(employees);
+//        Service.printMaximalSalary(employees);
+//        Service.printMinimalSalaryInDept(employees, 1);
+//        Service.printMaximalSalaryInDept(employees, 1);
+//        Service.printSumDeptSalary(employees, 1);
+//        Service.printAverageDeptSalary(employees, 1);
+        Service.printSalaryLess(employees, 40000);
     }
 }
